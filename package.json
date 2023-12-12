@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://JussiJuv.github.io/Front-End",
   "scripts": {
-    "sass": "node-sass -w modern_portfolio/scss/ -o modern_portfolio/dist/css/ --recursive"
+    "sass": "node-sass -w modern_portfolio/scss/ -o modern_portfolio/dist/css/ --recursive",
+    "deploy": "gh-pages -d modern_portfolio/dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/JussiJuv/Front-End/issues"
   },
-  "homepage": "https://github.com/JussiJuv/Front-End#readme"
+  "dependencies": {
+    "gh-pages": "^6.1.0"
+  }
 }
