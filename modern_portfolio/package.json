@@ -1,0 +1,19 @@
+{
+  "name": "coursework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w modern_portfolio/scss/ -o modern_portfolio/dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JussiJuv/Front-End.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JussiJuv/Front-End/issues"
+  },
+  "homepage": "https://github.com/JussiJuv/Front-End#readme"
+}
